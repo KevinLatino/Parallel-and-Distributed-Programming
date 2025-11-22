@@ -1,0 +1,71 @@
+
+/* Corporate TechNova Style */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #eef2f7;
+  color: #2d3436;
+}
+
+header {
+  background: linear-gradient(90deg, #063970, #0a4a84);
+  padding: 25px 0;
+  color: white;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+  font-weight: 500;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  opacity: 0.7;
+}
+
+.container {
+  width: 85%;
+  margin: auto;
+  padding: 40px 0;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.12);
+  border-left: 6px solid #0a4a84;
+}
+
+h1,h2 {
+  color: #0a4a84;
+}
+
+footer {
+  background: #063970;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  margin-top: 50px;
+  font-size: 14px;
+  letter-spacing: .5px;
+}
+
+ul { line-height: 1.8; font-size: 15px; }
